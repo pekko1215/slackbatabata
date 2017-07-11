@@ -1,3 +1,4 @@
 var shell = require('shelljs');
 console.log(shell.ls())
-shell.exec('./bin/hubot')
+shell.cat('./bin/hubot')
+shell.exec('bash ./bin/hubot')
