@@ -1,3 +1,3 @@
 var shell = require('shelljs');
-
-shell.exec('bin/hubot')
+console.log(shell.ls())
+shell.exec('./bin/hubot')
